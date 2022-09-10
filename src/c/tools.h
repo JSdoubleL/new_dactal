@@ -38,7 +38,7 @@ extern int rm_label_job(char * in_tree, char * out_path);
 static const char RAXML_GTRGAMMA[] 
   = "GTRGAMMA";
 static const char RAXML_JC[]      
-  = "GTRCAT -V --JC69";
+  = "PROTCATLG -c 20";
 static const char FT_GTRGAMMA[]     
   = "-gtr -gamma";
 static const char FT_JC[]           
